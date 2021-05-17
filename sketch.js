@@ -45,6 +45,8 @@ function draw() {
   image(boyIMG,200,525,200,200);
 
   stone.display();
+
+  detectcollision();
   
   drawSprites();
  
